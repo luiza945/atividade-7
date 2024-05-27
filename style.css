@@ -9,6 +9,7 @@
     --main-background: #164e63;
     --text-color: #f9fafb;
     --nav-background:#083344;
+    --a-color: #1E90FF;
 }
 
 body {
@@ -33,3 +34,17 @@ nav {
 ul, li {
     list-style: none;
 }
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 900;
+}
+
+a:hover {
+    display: block;
+    color: var(--a-color);
+    transform: scale(1.1);
+    transition: transform .3s;
+}
+
